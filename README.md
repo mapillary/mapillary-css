@@ -15,3 +15,9 @@ npm -i -save mapillary-css
 ```css
 @import 'mapillary-css';
 ```
+
+### CDN
+
+```html
+<link href="https://unpkg.com/mapillary-css@1.0.1/css/mapillary.min.css" rel="stylesheet">
+```
