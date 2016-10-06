@@ -1,6 +1,6 @@
 {
   "name": "mapillary-css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mapillary CSS styles in one place",
   "main": "index.js",
   "scripts": {
