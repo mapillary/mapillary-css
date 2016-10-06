@@ -1,0 +1,53 @@
+@import '_color-vars.css';
+
+.green {
+  color: var(--green);
+}
+
+.red {
+  color: var(--red);
+}
+
+.white {
+  color: var(--white);
+}
+
+.gray-1 {
+  color: var(--gray-1);
+}
+
+.gray-2 {
+  color: var(--gray-2);
+}
+
+.gray-3 {
+  color: var(--gray-3);
+}
+
+.gray-4 {
+  color: var(--gray-4);
+}
+
+.gray-5 {
+  color: var(--gray-5);
+}
+
+.gray-6 {
+  color: var(--gray-6);
+}
+
+.baby-blue {
+  color: var(--baby-blue);
+}
+
+.blue {
+  color: var(--blue);
+}
+
+.gold {
+  color: var(--gold);
+}
+
+.orange {
+  color: var(--orange);
+}

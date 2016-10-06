@@ -1,0 +1,53 @@
+@import '_color-vars.css';
+
+.bg-green {
+  background-color: var(--green);
+}
+
+.bg-red {
+  background-color: var(--red);
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+
+.bg-gray-1 {
+  background-color: var(--gray-1);
+}
+
+.bg-gray-2 {
+  background-color: var(--gray-2);
+}
+
+.bg-gray-3 {
+  background-color: var(--gray-3);
+}
+
+.bg-gray-4 {
+  background-color: var(--gray-4);
+}
+
+.bg-gray-5 {
+  background-color: var(--gray-5);
+}
+
+.bg-gray-6 {
+  background-color: var(--gray-6);
+}
+
+.bg-baby-blue {
+  background-color: var(--baby-blue);
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+.bg-gold {
+  background-color: var(--gold);
+}
+
+.bg-orange {
+  background-color: var(--orange);
+}

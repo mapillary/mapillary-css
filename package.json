@@ -1,0 +1,42 @@
+{
+  "name": "mapillary-css",
+  "version": "1.0.0",
+  "description": "Mapillary CSS styles in one place",
+  "main": "index.js",
+  "scripts": {
+    "start": "mkdir -p css && postcss index.css -u postcss-import -u postcss-custom-media -u postcss-custom-properties -u postcss-calc -u postcss-color-function -u postcss-remove-root -u autoprefixer -o css/mapillary.css",
+    "minify": "postcss css/mapillary.css -u cssnano -o css/mapillary.min.css",
+    "prepublish": "npm start && npm run minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapillary/mapillary-css.git"
+  },
+  "keywords": [
+    "mapillary",
+    "css",
+    "styles"
+  ],
+  "author": "Kamil Nikel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mapillary/mapillary-css/issues"
+  },
+  "homepage": "https://github.com/mapillary/mapillary-css#readme",
+  "dependencies": {
+    "basscss": "8.0.2",
+    "basscss-addons": "1.0.0",
+    "basscss-basic": "1.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "6.5.0",
+    "cssnano": "3.7.6",
+    "postcss-calc": "5.3.1",
+    "postcss-cli": "2.6.0",
+    "postcss-color-function": "2.0.1",
+    "postcss-custom-media": "5.0.1",
+    "postcss-custom-properties": "5.0.1",
+    "postcss-import": "8.1.2",
+    "postcss-remove-root": "0.0.2"
+  }
+}
