@@ -20,6 +20,8 @@
 @import 'basscss-addons/modules/responsive-typography';
 @import 'basscss-addons/modules/responsive-type-scale';
 
+@import 'basscss-addons/modules/background-images';
+
 @import 'colors.css';
 @import 'background-colors.css';
 @import 'border-colors.css';
