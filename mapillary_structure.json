@@ -1,0 +1,18 @@
+{
+  "description": "Mapillary CSS styles in one place",
+  "maintainers": [
+    "knikel"
+  ],
+  "providers": [
+    {
+      "dependencies": [],
+      "description": "???",
+      "extDependencies": [],
+      "marathon_name": "???",
+      "name": "???",
+      "services": [],
+      "type": "???"
+    }
+  ],
+  "repo": "mapillary-css"
+}
