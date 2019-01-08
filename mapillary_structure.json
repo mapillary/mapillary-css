@@ -9,7 +9,12 @@
       "description": "DEPRECATED | Mapillary CSS styles in one place",
       "extDependencies": [],
       "name": "DEPRECATED | Mapillary CSS styles in one place",
-      "services": [],
+      "services": [
+        {
+          "description": "The CSS styles",
+          "name": "mapillary_css_library"
+        }
+      ],
       "type": "library"
     }
   ],
