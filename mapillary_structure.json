@@ -1,17 +1,16 @@
 {
-  "description": "Mapillary CSS styles in one place",
+  "description": "DEPRECATED | Mapillary CSS styles in one place",
   "maintainers": [
     "knikel"
   ],
   "providers": [
     {
       "dependencies": [],
-      "description": "???",
+      "description": "DEPRECATED | Mapillary CSS styles in one place",
       "extDependencies": [],
-      "marathon_name": "???",
-      "name": "???",
+      "name": "DEPRECATED | Mapillary CSS styles in one place",
       "services": [],
-      "type": "???"
+      "type": "library"
     }
   ],
   "repo": "mapillary-css"
